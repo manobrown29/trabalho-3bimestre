@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color:#391879;
+  height: 100vh;
+  
+}
+
+.flex{
+  display: flex;
+}
+
+.btn-contato button{
+  padding: 10px 40px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #CDB4FF;
+  border:0;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+h2.titulo{
+  color: white;
+  font-size:38px;
+  text-align:center;
+}
+
+.interface{
+  max-width: 1200px;
+  margin:0 auto;
+  
+}
+
+header{
+  padding: 40px 4%;
+  
+}
+
+header > .interface{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+img{
+  max-width: 10vh;
+}
+
+header a{
+  color: #ACACAC;
+  text-decoration: none;
+  display:inline-block;
+  transition:.2s ;
+  
+}
+
+header a:hover{
+  color: white;
+  transform: scale(1.05);
+}
+
+header nav ul{
+  list-style-type: none;
+}
+
+header nav ul li{
+  display: inline-block;
+  padding: 0 70px;
+}
+
+.btn-contato button:hover, form .btn-enviar input:hover{
+  box-shadow: 0px 0px 8px #9763FF;
+  transform: scale(1.05);
+}
+
+
+
+
+section .txt-contato {
+  color:white;
+  font-size:20px;
+  margin:5px 100px;
+}
+
+.imagem-centro{
+  margin:30px 20px;
+  max-width:50vh;
+  border-radius:80%;
+}
+
+section .introducao{
+  color:#ACACAC;
+  margin:10px 150px;
+}
+
+section .introducao p{
+  margin:10px 85px;
+  font-size:20px;
+}
+
+.introducao h3 span{
+  color:yellow;
+  margin:40px 55px;
+  font-size:30px;
+}
+
+.introducao .arroba {
+  color: white;
+  font-size:30px;
+  margin:0 40px;
+}

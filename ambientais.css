@@ -1,0 +1,266 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color:#391879;
+  height: 100vh;
+  
+}
+
+.flex{
+  display: flex;
+}
+
+.btn-contato button{
+  padding: 10px 40px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #CDB4FF;
+  border:0;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+h2.titulo{
+  color: white;
+  font-size:38px;
+  text-align:center;
+}
+
+.interface{
+  max-width: 1200px;
+  margin:0 auto;
+  
+}
+
+header{
+  padding: 40px 4%;
+  
+}
+
+header > .interface{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+img{
+  max-width: 10vh;
+}
+
+header a{
+  color: #ACACAC;
+  text-decoration: none;
+  display:inline-block;
+  transition:.2s ;
+  
+}
+
+header a:hover{
+  color: white;
+  transform: scale(1.05);
+}
+
+header nav ul{
+  list-style-type: none;
+}
+
+header nav ul li{
+  display: inline-block;
+  padding: 0 40px;
+}
+
+.btn-contato button:hover, form .btn-enviar input:hover{
+  box-shadow: 0px 0px 8px #9763FF;
+  transform: scale(1.05);
+}
+
+
+
+section .topo-do-site{
+  padding: 40px 4%;
+}
+
+.topo-do-site .flex{
+  color: white;
+  font-size: 30px;
+}
+
+.topo-do-site .flex h2{
+  margin: 30px;
+}
+
+.topo-do-site .img-topo-site .imagem-um{
+  max-width: 100vh;
+  display: center;
+  border-radius: 15px;
+  margin: 40px 80px;
+}
+
+
+
+
+
+
+section{
+  padding: 20px 4%;
+}
+
+
+.txt-introducao p{
+  display: inline-block;
+}
+
+.ambientais {
+  color: #ACACAC ;
+  margin: 0 20px;
+}
+
+.txt-introducao p{
+  margin: 40px 0;
+  font-size: 20px;
+}
+
+.txt-introducao h3{
+  font-size: 30px;
+  color: white;
+  
+}
+
+
+
+
+section.especialidades .flex{
+  gap: 60px;
+}
+
+.especialidades .estagios-box {
+  color: white;
+  padding: 40px;
+  border-radius: 25px;
+  margin-top: 45px;
+  transition: .2s;
+}
+
+.especialidades .estagios-box a{
+  color: white;
+   text-decoration: none;
+}
+
+.especialidades .estagios-box:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 8px #ACACAC;
+}
+
+.especialidades .estagios-box i{
+  font-size: 70px;
+  color: #9763FF;
+}
+
+.especialidades .estagios-box h3{
+  font-size: 28px;
+  margin: 15px 0;
+  
+}
+
+
+
+
+
+
+section{
+  padding: 40px 4%;
+}
+
+section .interface h2{
+  color:white;
+  font-size: 42px;
+  margin: 10px;
+  text-align: center;
+}
+
+section .interface h3{
+  color: white;
+  font-size: 20px;
+  margin: 20px;
+}
+
+section .txt-estagios{
+  color: #ACACAC;
+  font-size: 20px;
+}
+
+
+.txt-estagios .imagem-um{
+  max-width: 30vh;
+  margin: 20px 0;
+  display: inline-block;
+  border-radius: 15px;
+}
+
+.txt-estagios .imagem-dois{
+  max-width: 35vh;
+  margin: 20px 0;
+  display: inline-block;
+  border-radius: 15px;
+}
+
+.txt-estagios .imagem-tres{
+  max-width: 35vh;
+  margin: 20px 0;
+  display: inline-block;
+  border-radius: 15px;
+}
+
+.txt-estagios .imagem-quatro{
+  max-width: 35vh;
+  margin: 20px 0;
+  display: inline-block;
+  border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+  padding: 40px 4%;
+  box-shadow: 0 0 15px #ACACAC;
+}
+
+footer .flex{
+  justify-content: space-between;
+}
+
+footer .line-footer{
+  padding: 20px 0;
+}
+
+.borda{
+  border-bottom: 2px solid #ACACAC;
+}
+
+footer .line-footer p i{
+  color: #9763FF;
+  font-size: 22px;
+}
+
+footer .line-footer p a{
+  color: white;
+  padding: 20px o;
+}
+
+
+
+
